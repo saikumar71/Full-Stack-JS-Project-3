@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap");
+
+body {
+  background-color: #2b2922;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 100rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  position: relative;
+  left: 7rem;
+  top: 2rem;
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+  margin-left: 15rem;
+}
+.list-item {
+  margin-right: 3rem;
+  margin-top: 2rem;
+  color: #ada7a7db;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.list-item:first-child {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.button-small {
+  margin-top: 1.8rem;
+  margin-right: 7rem;
+  padding: 9px 16px;
+  border: 2px solid yellow;
+  color: yellow;
+  background-color: #5b4826;
+  font-size: 1rem;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+/* Hero-sectio */
+h1 {
+  position: relative;
+  font-size: 3.2rem;
+  left: 11rem;
+  top: 4rem;
+  color: #ffffff;
+  font-weight: 900;
+}
+
+p {
+  position: relative;
+  margin-left: 48rem;
+  bottom: 7rem;
+  margin-right: 15rem;
+  font-size: 1.4rem;
+  line-height: 2;
+  color: #ffffffdb;
+}
+
+.justice-img {
+  width: 100%;
+  max-height: 230px;
+  margin-bottom: 2rem;
+}
